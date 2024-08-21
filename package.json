@@ -1,0 +1,23 @@
+{
+  "name": "ritanewpackage",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "rita package",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:development"
+  },
+  "keywords": [
+    "react",
+    "country"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.21.0"
+  }
+}
