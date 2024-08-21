@@ -1,4 +1,4 @@
-export const Animated=()=>{
+const Animated=()=>{
     return(
         <>
             <p>Hello Rita</p>
@@ -6,3 +6,4 @@ export const Animated=()=>{
         </>
     )
 }
+export default Animated
