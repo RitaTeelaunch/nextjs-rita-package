@@ -9,6 +9,7 @@ export default [
             file:"dist/index.js",
             format:"es",
             sourcemap:devMode ?'inline':false,
+            external: ['react', 'react-dom'],
             plugins:[
                 terser({
                     ecma:2020,

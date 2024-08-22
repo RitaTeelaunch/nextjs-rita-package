@@ -1,7 +1,7 @@
 {
   "name": "ritanewpackage",
-  "version": "1.0.0",
-  "type":"module",
+  "version": "1.1.2",
+  "type": "module",
   "description": "rita package",
   "main": "dist/index.js",
   "scripts": {
@@ -14,10 +14,10 @@
   ],
   "author": "country",
   "license": "ISC",
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "https://github.com/RitaTeelaunch/nextjs-rita-package"
-  } ,
+  },
   "bugs": {
     "url": "https://github.com/RitaTeelaunch/nextjs-rita-package/issues"
   },
